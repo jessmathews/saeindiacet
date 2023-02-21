@@ -123,6 +123,7 @@ a:hover {
   display: table;
 }
 
+
 .table-cell {
   display: table-cell;
   vertical-align: middle;
@@ -150,7 +151,7 @@ a:hover {
 
 /*--/ Title A /--*/
 .title-box {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .title-a {
@@ -158,6 +159,14 @@ a:hover {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.title-new{
+  font-family:"Poppins",sans-serif;
+  font-size: 2.5rem;
+  margin: 1rem 0;
+  font-weight: bold;
+  color: #035c88;
 }
 
 .subtitle-a {
@@ -608,7 +617,7 @@ a:hover {
 .navbar .dropdown .dropdown ul {
   top: 0;
   left: calc(100% - 30px);
-  visibility: hidden;
+  visibility: visible;
 }
 
 .navbar .dropdown .dropdown:hover>ul {
@@ -796,7 +805,7 @@ a:hover {
 }
 
 .hero-single {
-  height: 350px;
+  height: 250px;
 }
 
 .hero-single .hero-content {
@@ -919,6 +928,7 @@ a:hover {
 }
 
 .service-box .s-description {
+  font-size: 15px;
   color: #4e4e4e;
 }
 
@@ -967,6 +977,7 @@ a:hover {
 }
 
 .work-img {
+  height: 15rem;
   display: block;
   overflow: hidden;
 }
@@ -1005,16 +1016,26 @@ a:hover {
 .w-title {
   font-size: 1.2rem;
 }
+.event .title-box {
+  margin-bottom: 1rem;
+}
+
+
 
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
+  margin-top: 40px;
   padding-top: 40px;
 }
 
+
+
 .portfolio-details .portfolio-details-slider img {
+  margin-bottom: 20px;
   width: 100%;
+  height: 33rem;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -1042,8 +1063,8 @@ a:hover {
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
   font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #eee;
 }
 
@@ -1051,6 +1072,10 @@ a:hover {
   list-style: none;
   padding: 0;
   font-size: 15px;
+}
+
+.portfolio-details .portfolio-info strong {
+  font-size: 17px;
 }
 
 .portfolio-details .portfolio-info ul li+li {
