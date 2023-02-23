@@ -102,6 +102,7 @@ a:hover {
 
 /* landing */
 
+
 #landing{
   min-height: 100vh;
   background-image: url('../img/Polygon\ Luminary\ \(1\).svg');
@@ -111,6 +112,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .landing-page .team-name{
@@ -135,6 +137,23 @@ a:hover {
 .landing-page{
   z-index: 1;
 }
+
+@media (max-width: 768px) {
+  .landing-page {
+    flex-direction: column;
+    margin-bottom: 25vh;
+
+  }
+  .landing-page .team-name{
+    font-size: 4.1rem;
+    margin-bottom: 10px;
+    
+  }
+  .landing-page .team-logo{
+    height: 30px;
+  }
+}
+
 
 .overlay-mf {
   background-color: #050d16;
@@ -540,7 +559,7 @@ a:hover {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 35px;
 }
 
 #header.header-scrolled {
@@ -549,6 +568,8 @@ a:hover {
 }
 
 /* event header */
+
+
 
 
 #event-header {
@@ -570,7 +591,7 @@ a:hover {
 }
 
 #event-header .logo img {
-  max-height: 40px;
+  max-height: 35px;
 }
 
 #event-header.header-scrolled {
@@ -619,6 +640,10 @@ a:hover {
   letter-spacing: 0.4px;
   position: relative;
   text-transform: uppercase;
+}
+
+.navbar #team-dropdown{
+  
 }
 
 .navbar a i,
