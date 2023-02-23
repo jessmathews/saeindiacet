@@ -8,6 +8,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
@@ -96,6 +98,42 @@ a:hover {
   .bg-image {
     background-attachment: scroll;
   }
+}
+
+/* landing */
+
+#landing{
+  min-height: 100vh;
+  background-image: url('../img/Polygon\ Luminary\ \(1\).svg');
+}
+.landing-page{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-page .team-name{
+  font-size: 6.1rem;
+  letter-spacing: 0.2px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+
+.overlay-landing{
+  background-color: #050d16;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+  z-index: .0;
+}
+.landing-page{
+  z-index: 1;
 }
 
 .overlay-mf {
@@ -1211,6 +1249,24 @@ a:hover {
   }
 }
 
+.swiper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img{
+  margin-left:50% ;
+  transform: translateX(-50%);
+  object-fit: cover;
+  /* width: 60% !important;  */
+}
+
+@media (max-width: 1000px) {
+  .swiper-slide img{
+    width: 100%;
+  }
+}
+
 .swiper-pagination {
   margin-top: 20px;
   position: relative;
@@ -1336,6 +1392,8 @@ a:hover {
   }
 }
 
+
+
 /*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
@@ -1345,6 +1403,7 @@ a:hover {
   }
 }
 
+/* LANDING */
 
 
 .team-intro{
