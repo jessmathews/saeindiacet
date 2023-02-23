@@ -1359,6 +1359,10 @@ a:hover {
   position: relative;
 }
 
+.card-blog .card-body a{
+  color: #014695;
+}
+
 .card-blog .card-category-box {
   position: absolute;
   text-align: center;
