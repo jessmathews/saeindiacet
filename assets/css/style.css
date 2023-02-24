@@ -116,7 +116,7 @@ a:hover {
 }
 
 .landing-page .team-name{
-  font-size: 6.1rem;
+  font-size: 3.8rem;
   letter-spacing: 0.2px;
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
@@ -137,20 +137,27 @@ a:hover {
 .landing-page{
   z-index: 1;
 }
+.landing-page .team-logo{
+  /* margin-left: 50px; */
+}
+.landing-page .team-logo img{
+  height: 45vh;
+}
 
-@media (max-width: 768px) {
+
+@media (max-width: 1100px){
   .landing-page {
     flex-direction: column;
     margin-bottom: 25vh;
 
   }
   .landing-page .team-name{
-    font-size: 4.1rem;
+    font-size: 3.3rem;
     margin-bottom: 10px;
     
   }
   .landing-page .team-logo{
-    height: 30px;
+    height: 35px;
   }
 }
 
@@ -482,6 +489,10 @@ a:hover {
   0% {
     transform: rotate(0deg);
   }
+
+
+
+
 
   100% {
     transform: rotate(360deg);
@@ -1335,6 +1346,14 @@ a:hover {
   font-weight: 600;
 }
 
+  #contact .sent-message {
+  display: visible !important;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
 .php-email-form .sent-message {
   display: none;
   color: #fff;
@@ -1343,6 +1362,7 @@ a:hover {
   padding: 15px;
   font-weight: 600;
 }
+
 
 .php-email-form .loading {
   display: none;
@@ -1391,6 +1411,10 @@ a:hover {
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
+}
+
+#send-button{
+  display:  inline-block;
 }
 
 .php-email-form button[type=submit]:hover {
