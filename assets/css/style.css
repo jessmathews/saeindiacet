@@ -144,6 +144,16 @@ a:hover {
   height: 45vh;
 }
 
+.landing-page .herakles-logo img{
+  height: 25rem;
+}
+.landing-page .zenith-logo img{
+  height: 25rem;
+  padding-bottom: 5%;
+}
+
+
+
 
 @media (max-width: 1100px){
   .landing-page {
@@ -159,6 +169,14 @@ a:hover {
   .landing-page .team-logo{
     height: 35px;
   }
+  .landing-page .herakles-logo img{
+    height: 55vh;
+  }
+  .landing-page .zenith-logo img{
+    height: 55vh;
+  }
+  
+
 }
 
 
@@ -1287,6 +1305,7 @@ a:hover {
 
 .swiper{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -1552,12 +1571,39 @@ a:hover {
     font-size: 1.9rem;
   }
 }
+.team-names{
+  align-items: center;
+  justify-content: center;
+
+}
+
 
 
 .team-images img{
   align-content: center;
-  height: 35rem;
+  height: 50%;
 }
+
+@media (min-width: 1000px) {
+  .team-images img{
+    align-content: center;
+    height: 30rem;
+
+  }
+  .article-content {
+    margin-left:50% ;
+    transform: translateX(-50%);
+    object-fit: cover;
+    width: 90%;
+    font-size: 16px;
+    letter-spacing: 1px;
+  
+  }
+}
+
+
+
+
 
 .blog-wrapper .post-meta {
   margin: 1rem 0;
@@ -1584,6 +1630,7 @@ a:hover {
 .blog-wrapper .blockquote {
   border-left: 4px solid #0078ff;
   padding: 18px;
+  margin-bottom: 30px;
   font-style: italic;
 }
 
