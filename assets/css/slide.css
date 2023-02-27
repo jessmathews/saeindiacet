@@ -48,6 +48,8 @@
   .profile{
     width: 25%;
     margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     height: 14rem;
     background:none;
     display: flex;
