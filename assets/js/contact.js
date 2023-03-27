@@ -11,24 +11,24 @@ const select = (el, all = false) => {
   }
 };
 
+
 form.addEventListener("submit", (e) => {
   let selectform = select(".sent-message");
+  let selecterror = select(".erroe-message");
   let sendButton = select(".button");
-  if (selectform) {
-    const formSubmited = (status) => {
-      if (status == 200) {
-        selectform.style.display = "block";
-        sendButton.style.display = "none";
-      } else {
-        sendButton.style.display = "inline-block";
-        selectform.style.display = "none";
-      }
-    };
-    formSubmited(200);
-  }
+  const formSubmited = (status) => {
+    if (status == 200) {
+      selectform.style.display = "block";
+      sendButton.style.display = "none";
+    } else {
+      sendButton.style.display = "inline-block";
+      selectform.style.display = "none";
+    }
+  };
   e.preventDefault();
   fetch(scriptURL, { method: "POST", body: new FormData(form) })
     .then((response) => {
+      formSubmited(200);
       console.log("Success!", response.status);
     })
     .catch((error) => console.error("Error!", error.message));

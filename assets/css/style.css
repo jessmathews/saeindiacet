@@ -289,10 +289,12 @@ a:hover {
 
 .title-a {
   text-decoration: none;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   text-transform: uppercase;
 }
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 .title-new{
   font-family:"Poppins",sans-serif;
@@ -1858,5 +1860,43 @@ footer .credits a {
 
 
 
+/* announcement section */
 
+.announcement-img img{
+  width: 100% !important;
+  height: 80vh;
+}
 
+.announcement-img img:hover{
+  transform: scale(1)
+}
+
+.announcement-more {
+  display: flex;
+  justify-content: center;
+} 
+
+.announcement-more a{
+  background-color: #d3dde8;
+  border-radius: 1rem;
+  padding: 4px 12px;
+  text-align: center;
+  max-width: 16rem;
+}
+.announcement-more h3{
+  height: 100%;
+  width: 100%;
+  padding-top: 5px;
+  font-size: 1.2rem;
+  color: #3393FF;
+}
+
+.announcement-more h3:hover{
+  /* background-color: #3393FF; */
+  color: #d3dde8 !important;
+
+}
+.announcement-more a:hover{
+  background-color: #3393FF;
+
+}
