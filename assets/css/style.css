@@ -1953,7 +1953,7 @@ footer .credits a {
 
 .announcement-img img{
   width: 100% !important;
-  height: 80vh;
+  height: 70vh;
 }
 
 .announcement-img img:hover{
@@ -1988,4 +1988,15 @@ footer .credits a {
 .announcement-more a:hover{
   background-color: #3393FF;
 
+}
+
+@media (max-width: 1000px){
+  .announcement-img img{
+    height: 60vh;
+  }
+}
+@media (max-width: 768px){
+  .announcement-img img{
+    height: 80vh;
+  }
 }
