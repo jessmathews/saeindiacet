@@ -998,7 +998,7 @@ a:hover {
 .main-title h1{
   font-size: 2.5rem;
   color: #e5f2ff;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family:sans-serif;
   letter-spacing: 1px;
   font-weight: 600;
 }
@@ -1045,10 +1045,10 @@ a:hover {
 }
 @media (max-width: 500px) {
   .main-title h1{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
    }
    .main-title p{
-    font-size: 0.5rem;
+    font-size: 0.4rem;
     letter-spacing: 0.7px;
    }
    .title-written{
