@@ -1039,9 +1039,9 @@ a:hover {
   font-size: 0.7rem;
   letter-spacing: 1px;
  }
- .title-written{
+ /* .title-written{
   padding: 10% 15%;
-  }
+  } */
 }
 @media (max-width: 500px) {
   .main-title h1{
@@ -1052,7 +1052,7 @@ a:hover {
     letter-spacing: 0.7px;
    }
    .title-written{
-    padding: 10% 12%;
+    /* padding: 10% 12%; */
     margin-bottom: 1rem;
     }
     .front-landing-page{
@@ -1953,7 +1953,7 @@ footer .credits a {
 
 .announcement-img img{
   width: 100% !important;
-  height: 70vh;
+  height: 30vW;
 }
 
 .announcement-img img:hover{
@@ -1992,11 +1992,11 @@ footer .credits a {
 
 @media (max-width: 1000px){
   .announcement-img img{
-    height: 60vh;
+    height: 30vW;
   }
 }
 @media (max-width: 768px){
   .announcement-img img{
-    height: 80vh;
+    height: 90vw;
   }
 }
