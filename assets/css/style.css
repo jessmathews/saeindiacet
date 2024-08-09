@@ -142,9 +142,9 @@ a:hover {
 .landing-page{
   z-index: 1;
 }
-.landing-page .team-logo{
-  /* margin-left: 50px; */
-}
+/* .landing-page .team-logo{
+  /* margin-left: 50px;
+} */
 .landing-page .team-logo img{
   height: 45vh;
 }
@@ -197,9 +197,9 @@ a:hover {
   .landing-page .team-logo{
     height: 35px;
   }
-  .landing-page .herakles-logo img{
-    /* height: 55vh; */
-  }
+  /* .landing-page .herakles-logo img{
+    /* height: 55vh;
+  } */
   .landing-page .zenith-logo img{
     /* height: 55vh; */
     /* height: 25px; */
@@ -715,9 +715,9 @@ a:hover {
   text-transform: uppercase;
 }
 
-.navbar #team-dropdown{
+/* .navbar #team-dropdown{
   
-}
+} */
 
 .navbar a i,
 .navbar a:focus i {
@@ -1050,11 +1050,11 @@ a:hover {
    .main-title p{
     font-size: 0.4rem;
     letter-spacing: 0.7px;
-   }
+   }/*
    .title-written{
     /* padding: 10% 12%; */
-    /* margin-bottom: 1rem; */
-    }
+    /* margin-bottom: 1rem;
+    }*/
     .front-landing-page{
       margin-bottom: 1rem;
     }
@@ -1134,6 +1134,10 @@ a:hover {
 /* .about-mf .row {
   align-items: center;
 } */
+.center{
+  justify-content: center;
+  text-align:center;
+}
 
 .event {
   align-items: center;
@@ -1251,12 +1255,12 @@ a:hover {
   background-color: #fff;
 }
 
-.work-box:hover img {
+/* .work-box:hover img {
   transform: scale(1.3);
-}
+} */
 
 .work-img {
-  height: 15rem;
+  /* height: 15rem; */
   display: block;
   overflow: hidden;
 }
@@ -1612,9 +1616,9 @@ a:hover {
 
 }
 
-.team{
+/* .team{
 
-}
+} */
 .card-blog .card-body {
   position: relative;
 }
