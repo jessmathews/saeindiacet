@@ -1256,6 +1256,7 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  border-radius: 5%;
 }
 
 /* .work-box:hover img {
@@ -1266,6 +1267,11 @@ a:hover {
   /* height: 15rem; */
   display: block;
   overflow: hidden;
+}
+
+.work-img>img {
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
 }
 
 .work-img img {
